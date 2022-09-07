@@ -46,9 +46,10 @@ class LoadDeliverGame(Model):
         self.schedule.add(Ag)
         self.Entities.add(Ag)
         # Agent 2
-        # Ag = SimpleAgent((8, 2), self)
-        Ag = SimpleAgent((9, 2), self)
-        self.grid.place_agent(Ag, (9, 2))
+        Ag = SimpleAgent((8, 2), self)
+        self.grid.place_agent(Ag, (8, 2))
+        #Ag = SimpleAgent((9, 2), self)
+        #self.grid.place_agent(Ag, (9, 2))
         self.schedule.add(Ag)
         self.Entities.add(Ag)
         # Agent 3
